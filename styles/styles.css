@@ -1,0 +1,330 @@
+/*-------------------googole-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*  font-family: "Work Sans", serif;  # */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------- banner-start */
+.banner-div{
+    width: 1300px;
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../new-year-offer-resources/images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-content{
+    /* width:632px;
+    height:246px; */
+    font-family: "Work Sans", serif;
+    color: white;
+    text-align: center;
+}
+.banner-content, .sub-title{
+    font-size: 32px;
+    font-weight:400;
+}
+.banner-content, .title{
+    font-size: 72px;
+    font-weight: 800;
+}
+/*--------------------------- banner-end */
+
+/*----------------------------- offer-section-start */
+ 
+.offer-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 803px;
+ height: 806px;
+ margin: 20px auto;
+}
+.offer-content{
+    text-align: center;
+}
+.offer-content .off{
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.offer-content .off-para{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #ca2b2b;
+}
+.offer-content .catagori{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.off-img{
+    
+}
+/*----------------------------- offer-section-end */
+
+/* -----------------------------------party-start */
+.party-banner{
+    width: 1300px;
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../new-year-offer-resources/images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.party-content .enjoy{
+    color: white;
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.party-content .part-para{
+    color: white;
+    margin-bottom: 30px;
+}
+.party-content .join{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+}
+/* -----------------------------------party-end */
+
+/* -------------------------------------address-start */
+.adress-div{
+    width: 1300px;
+    height: 600px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.adress-content{
+    text-align: center;
+}
+.adress-content .place, .time, .date{
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.adress-content span{
+    color: #FF0000;
+}
+.btn, .j{
+    background-color: #FF0000;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* -------------------------------------address-end */
+
+
+/* -------------------------------------comming-soon-start */
+.comming-div{
+    width: 1300px;
+    height: 463px;
+    margin: 30px auto;
+}
+.comming-div .coming-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.moddle-content {
+    width: 340px;
+    height: 340x;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.moddle-content .m-img {
+    padding: 30px;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+}
+.left-content .upt{
+    font-size: 24px;
+    font-weight: 400;
+    color: #e02c2c;
+}
+.left-content .left-heading{
+    font-size: 48px;
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+.right-content .twenty{
+    color:red;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bottom-img img{
+    margin-top: 30px;
+}
+/* -------------------------------------comming-soon-end */
+
+/* ------------------------------------------discount-start */
+.discount-div{
+    text-align: center;
+    width: 1300px;
+    height: 463px;
+    margin: 30px auto;
+
+}
+
+.discount-div .dis-para{
+    font-size: 24px;
+    font-weight: 400;
+}
+.discount-div .dis-heading{
+    font-size: 72px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.dis-heading span{
+color: red;
+}
+.discount-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.discount-img .img-left{
+    margin-top: 40px;
+}
+.img-right{
+    position: absolute;
+}
+.img-right {
+    position: absolute;
+    margin-top: -223px;
+    z-index: -1;
+}
+
+/* ------------------------------------------discount-end */
+
+/* -------------------------------------shows-gallary-start */
+.shows{
+    margin-top: 500px;
+}
+
+.shows .shows-div{
+    width: 1320px;
+    height: 1163px;
+    margin: 20px auto;
+}
+.shows-div .shows-top-para{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(223, 31, 31);
+    margin-bottom: 10px;
+}
+.shows-div .shows-heading{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.shows-conent{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+.email-div{
+    width: 1320px;
+    height: 616px;
+    margin: 20px auto;
+    text-align: center;
+}
+.email-div .email-heading{
+    font-size: 48px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.email-div .email-para{
+    margin: 20px 0;
+}
+.email-div .send-email{
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+.email-div .subs{
+width: 160px;
+height: 50px;
+background-color: #FF0000;
+color: white;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+/* -------------------------------------shows-gallary-end */
+
+
+/* --------------------------------------------footer-start */
+.footer-div{
+    width: 1320px;
+    height: 616px;
+    background-color:#070211;
+    margin: 20px auto;
+}
+.top-div, .last-div{
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+.left-footer, .right-footer{
+    margin-top: 60px;
+
+}
+.right-footer ul li{
+list-style: none;
+}
+.h{
+    width: 80%;
+    margin: 40px auto;
+}
+.middle-icon ul li i{
+    color: white;
+    font-size: 40px;
+}
+.middle-icon ul li{
+    list-style: none;
+}
+.middle-icon ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+/* --------------------------------------------footer-end */
